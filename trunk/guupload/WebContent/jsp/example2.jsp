@@ -18,8 +18,7 @@ var isrun_gu = true;
 
 window.onload = function() {
 	if(navigator.appName.indexOf("Internet Explorer")!=-1){     //yeah, he's using IE
-		if (navigator.appVersion.indexOf("MSIE 9")==-1 &&   //v9 is ok
-			navigator.appVersion.indexOf("MSIE 1")==-1) isrun_gu = false;  //v10, 11, 12, etc. is fine too
+		if (navigator.appVersion.indexOf("MSIE 1")==-1) isrun_gu = false;  //v10, 11, 12, etc. is fine too
     };
 
 	if (isrun_gu){
