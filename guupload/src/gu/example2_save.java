@@ -5,16 +5,17 @@ import com.opensymphony.xwork2.ActionSupport;
 
 public class example2_save extends ActionSupport{
 	private String brd_title, brd_contents;
-	private String filename, realname;
-	private String[] filelist, reallist;
+	private String filename, realname, filesize;
+	private String[] filelist, reallist, sizelist;
 
 	
     public String execute() throws Exception {
-    	filelist = filename.split(",");
     	reallist = realname.split(",");
+    	filelist = filename.split(",");
+    	sizelist = filesize.split(",");
     	
     	for (int i=0; i<filelist.length; i++) {
-    		System.out.println(filelist[i] + ":" + reallist[i]);
+    		System.out.println(filelist[i] + ":" + reallist[i] + ":" + sizelist[i]);
     	}
         return SUCCESS;
     }
@@ -60,6 +61,16 @@ public class example2_save extends ActionSupport{
 	}
 
 
+	public String getFilesize() {
+		return filesize;
+	}
+
+
+	public void setFilesize(String filesize) {
+		this.filesize = filesize;
+	}
+
+
 	public String[] getFilelist() {
 		return filelist;
 	}
@@ -77,6 +88,16 @@ public class example2_save extends ActionSupport{
 
 	public void setReallist(String[] reallist) {
 		this.reallist = reallist;
+	}
+
+
+	public String[] getSizelist() {
+		return sizelist;
+	}
+
+
+	public void setSizelist(String[] sizelist) {
+		this.sizelist = sizelist;
 	}
 
 	

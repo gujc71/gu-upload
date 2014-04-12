@@ -13,7 +13,7 @@
 <script language="JavaScript" src="js/json2.js"></script>
 <script type="text/javascript">
 var uploader;
-var realname="", filename="";
+var realname="", filename="", filesize="";
 var isrun_gu = true;
 
 window.onload = function() {
@@ -83,10 +83,14 @@ function uploadSuccess(file, serverData) {
 
 	if (realname.length>0) realname += ",";
 	if (filename.length>0) filename += ",";
+	if (filesize.length>0) filesize += ",";
+	
 	filename += file.name;
+	filesize += file.size;
 	realname += jsondata.newfilename;
 	document.getElementById('realname').value = realname;
 	document.getElementById('filename').value = filename;
+	document.getElementById('filesize').value = filesize;
 	
 	uploadFiles(); // until all files are uploaded
 }
@@ -125,8 +129,9 @@ function formSubmit(){
 					<span id="swfbutton"></span>
 					<input type="button" value="Submit" onclick='uploadFiles();' />
 				</div>
-				<input type="hidden" id="filename" name="filename"/>
 				<input type="hidden" id="realname" name="realname"/>
+				<input type="hidden" id="filename" name="filename"/>
+				<input type="hidden" id="filesize" name="filesize"/>
 			</td>
 		</tr>
 		</table>
