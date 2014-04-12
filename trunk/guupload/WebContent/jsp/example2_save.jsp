@@ -12,7 +12,7 @@
 
 <div id="content">
 	<h2>Board</h2><br/>
-      	<table cellspacing="0" cellpadding="0"   width="700px">
+      	<table width="700px">
         <colgroup>
         <col width="15%"/>
         <col/>
@@ -29,7 +29,9 @@
 			<td>Attach File</td>
 			<td>
 				<s:iterator value="filelist" status="status">
-					<s:property value="top"/> <br/>
+					<s:property value="top"/> |
+					<s:property value="reallist[#status.index]"/> |
+					<s:property value="sizelist[#status.index]"/> <br/>
 				</s:iterator>
 			</td>
 		</tr>
