@@ -13,7 +13,7 @@ and other version( over IE 10) and web browser used GU-upload.
 
 It has been tested in Internet Explorer and Firefox.
 
-    https://drive.google.com/file/d/0B7ws0N17TV9aQmhWSWdETUdCSnc/edit?usp=sharing
+    ![](https://github.com/gujc71/gu-upload/blob/master/img1.png)
 
 Features
 
@@ -24,4 +24,5 @@ Features
 
 Demos
 
-Several simple demos are provided to illustrate aspects of using the GUupload with Java (Struts2) and PHP. You can get download through SVN for Java example and click here to download PHP.
+Several simple demos are provided to illustrate aspects of using the guupload with Java (Spring 4). 
+You can get download through other [github](https://github.com/gujc71/guupload_sample "guupload sample") page for Java example.
