@@ -20,6 +20,7 @@ Features
     Drag & Drop File
     Multiple File Selection
     File Upload Progress
+    List & Thumbnail mode
 
 Demos
 
