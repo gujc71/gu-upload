@@ -12,6 +12,8 @@ It has been tested in Internet Explorer and Firefox (Chrome).
 
 You can see screenshot in over list([img1.png](https://github.com/gujc71/gu-upload/blob/e19bde5e2ef97225a034ac46675e584825d18efb/img1.png), [img2.png](https://github.com/gujc71/gu-upload/blob/e19bde5e2ef97225a034ac46675e584825d18efb/img2.png))
 
+![](https://github.com/gujc71/gu-upload/blob/e19bde5e2ef97225a034ac46675e584825d18efb/img1.png)
+
 Features
 
     Drag & Drop File
