@@ -10,9 +10,9 @@ and other version( over IE 10) and web browser used gu-upload.
 
 It has been tested in Internet Explorer and Firefox (Chrome).
 
-![](https://github.com/gujc71/gu-upload/blob/e19bde5e2ef97225a034ac46675e584825d18efb/img1.png)
+![Screenshot](./img1.png)
 
-![](https://github.com/gujc71/gu-upload/blob/e19bde5e2ef97225a034ac46675e584825d18efb/img2.png)
+![Screenshot](./img2.png)
 
 Features
 
@@ -21,8 +21,8 @@ Features
     File Upload Progress
     List & Thumbnail mode
 
-Demos 
+Examples 
 
-Several simple demos are provided to illustrate aspects of using the guupload with Java (Spring 4). 
+There is a web project with some simple examples of using guupload with Java(Spring 4).
 
-You can get download through other [github](https://github.com/gujc71/guupload_sample "guupload sample") page for Java example.
+You can get download through other [github](https://github.com/gujc71/guupload_sample "guupload sample") page.
